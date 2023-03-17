@@ -20,9 +20,20 @@ import {
   tesla,
   shopify,
   carrent,
+  quotes,
   jobit,
   tripguide,
   threejs,
+  airbnb,
+  toothpaste,
+  food,
+  contact,
+  rickandmorty,
+  country,
+  vowal,
+  nextjs,
+  vercel,
+  notion,
 } from "../assets";
 
 export const navLinks = [
@@ -31,9 +42,14 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
+    id: "tech",
+    title: "Tech",
+  },
+  {
+    id: "works",
     title: "Work",
   },
+
   {
     id: "contact",
     title: "Contact",
@@ -42,21 +58,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "UI/UX Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -88,13 +104,13 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Next Js",
+    icon: nextjs,
   },
   {
     name: "Three JS",
@@ -105,12 +121,16 @@ const technologies = [
     icon: git,
   },
   {
+    name: "vercel",
+    icon: vercel,
+  },
+  {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Notion",
+    icon: notion,
   },
 ];
 
@@ -198,68 +218,244 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Airbnb Clone",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "Next Js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Leaflet",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/ManSOorcode/Airbnb-Clone",
   },
   {
-    name: "Job IT",
+    name: "Toothpaste Website",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TailWind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML5",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: toothpaste,
+    source_code_link: "https://halalopakeeza.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Food Order App",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Fire-Base",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: food,
+    source_code_link: "https://github.com/ManSOorcode/React-Food-Order-App",
   },
+  {
+    name: "Quotes App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Route",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quotes,
+    source_code_link: "https://github.com/ManSOorcode/React-Route",
+  },
+  {
+    name: "Contact App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Context Api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailWind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: contact,
+    source_code_link:
+      "https://github.com/ManSOorcode/React-Contact-App/tree/new-branch",
+  },
+  {
+    name: "Rick and Morty",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailWind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rickandmorty,
+    source_code_link:
+      "https://github.com/ManSOorcode/Rick-and-morty-All-characters",
+  },
+  {
+    name: "Country Cards",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: country,
+    source_code_link:
+      "https://github.com/ManSOorcode/22-Country-Card/tree/chor/raw-code",
+  },
+  {
+    name: "Vowal Filter App",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vowal,
+    source_code_link:
+      "https://github.com/ManSOorcode/21-Filter-vowal-from-Sentence",
+  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

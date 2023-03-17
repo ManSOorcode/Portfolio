@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import livelink from "./livelink.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -20,6 +21,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import notion from "./tech/notion.svg";
+import vercel from "./tech/brand-vercel.svg";
+import nextjs from "./tech/next-js.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +33,14 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import quotes from "./quotes.png";
+import airbnb from "./airbnb.png";
+import rickandmorty from "./rickandmorty.png";
+import contact from "./contact.png";
+import toothpaste from "./toothpaste.png";
+import country from "./country.png";
+import food from "./food.png";
+import vowal from "./vowal.png";
 
 export {
   logo,
@@ -52,11 +64,23 @@ export {
   tailwind,
   typescript,
   threejs,
+  nextjs,
+  vercel,
+  notion,
   meta,
   shopify,
   starbucks,
   tesla,
   carrent,
+  quotes,
   jobit,
   tripguide,
+  airbnb,
+  country,
+  contact,
+  rickandmorty,
+  toothpaste,
+  food,
+  vowal,
+  livelink,
 };
