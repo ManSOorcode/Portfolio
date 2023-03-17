@@ -19,10 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   quotes,
-  jobit,
-  tripguide,
   threejs,
   airbnb,
   toothpaste,
@@ -220,7 +217,7 @@ const projects = [
   {
     name: "Airbnb Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Airbnb clone built with NextJS and styled with Tailwind CSS. Features Leaflet library for map view. Users can search for listings and view detailed information about each listing, including price, reviews, and location on the map.",
     tags: [
       {
         name: "Next Js",
@@ -241,7 +238,7 @@ const projects = [
   {
     name: "Toothpaste Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Toothpaste Website is a freelance project showcasing products with a user-friendly interface built with HTML5, JavaScript, and Tailwind CSS. It effectively represents the brand's values and goals and helps increase its online presence.",
     tags: [
       {
         name: "JavaScript",
@@ -262,7 +259,7 @@ const projects = [
   {
     name: "Food Order App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Food Order App is a React web app styled with Tailwind CSS, enabling users to order food via delivery or pickup. Its intuitive interface and responsive design ensure a seamless experience, making it a fast and easy platform for food lovers.",
     tags: [
       {
         name: "React Js",
@@ -283,7 +280,7 @@ const projects = [
   {
     name: "Quotes App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Quotes App is a React-based web app styled with Tailwind CSS and powered by Firebase. Users can add, browse, and search for quotes with an intuitive interface and real-time updates, making it perfect for quote enthusiasts.",
     tags: [
       {
         name: "React JS",
@@ -304,7 +301,7 @@ const projects = [
   {
     name: "Contact App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Contact App is a React-based web application styled with Tailwind CSS and powered by Context API for efficient data management. It provides a user-friendly interface for storing and managing contact information in an organized manner.",
     tags: [
       {
         name: "React JS",
@@ -326,7 +323,7 @@ const projects = [
   {
     name: "Rick and Morty",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Rick and Morty web app is built with React and Tailwind CSS and features information on all characters from the popular TV series. With filtering, sorting, and detailed character views, it's an engaging experience for fans.",
     tags: [
       {
         name: "React JS",
@@ -348,7 +345,7 @@ const projects = [
   {
     name: "Country Cards",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Country Cards project is a web app that uses HTML5, CSS3, and JavaScript to display info on countries, leveraging an API for data retrieval. Its user-friendly interface and efficient data processing provide an engaging educational experience for users.",
     tags: [
       {
         name: "JavaScript",
@@ -374,7 +371,7 @@ const projects = [
   {
     name: "Vowal Filter App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Vowel Filter App is a simple yet effective web application that uses HTML5, CSS3, and JavaScript. It allows users to filter out vowels from text, leaving only the consonants. Its minimalist design and ease of use make it a handy tool for text processing.",
     tags: [
       {
         name: "JavaScript",
