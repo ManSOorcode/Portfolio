@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -50,7 +51,7 @@ const ProjectCard = ({
         <div className="mt-5">
           <div className="text-white font-bold text-[24px] flex justify-start">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(live_link, "_blank")}
               className=" hover:text-pink-500   cursor-pointer"
             >
               {name}

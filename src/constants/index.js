@@ -234,6 +234,8 @@ const projects = [
     ],
     image: airbnb,
     source_code_link: "https://github.com/ManSOorcode/Airbnb-Clone",
+
+    live_link: "https://mansoor-cairbnb-clone.vercel.app/",
   },
   {
     name: "Toothpaste Website",
@@ -255,6 +257,8 @@ const projects = [
     ],
     image: toothpaste,
     source_code_link: "https://halalopakeeza.com/",
+
+    live_link: "https://halalopakeeza.com/",
   },
   {
     name: "Food Order App",
@@ -276,6 +280,8 @@ const projects = [
     ],
     image: food,
     source_code_link: "https://github.com/ManSOorcode/React-Food-Order-App",
+
+    live_link: "https://react-food-order-app-mansoorcode.vercel.app/",
   },
   {
     name: "Quotes App",
@@ -297,6 +303,8 @@ const projects = [
     ],
     image: quotes,
     source_code_link: "https://github.com/ManSOorcode/React-Route",
+
+    live_link: "https://react-route-alpha.vercel.app/quotes",
   },
   {
     name: "Contact App",
@@ -319,6 +327,8 @@ const projects = [
     image: contact,
     source_code_link:
       "https://github.com/ManSOorcode/React-Contact-App/tree/new-branch",
+
+    live_link: "https://contacts-directory.vercel.app/",
   },
   {
     name: "Rick and Morty",
@@ -341,6 +351,8 @@ const projects = [
     image: rickandmorty,
     source_code_link:
       "https://github.com/ManSOorcode/Rick-and-morty-All-characters",
+
+    live_link: "https://rick-and-morty-mansoorcode.vercel.app/",
   },
   {
     name: "Country Cards",
@@ -367,6 +379,8 @@ const projects = [
     image: country,
     source_code_link:
       "https://github.com/ManSOorcode/22-Country-Card/tree/chor/raw-code",
+
+    live_link: "https://country-card.vercel.app/",
   },
   {
     name: "Vowal Filter App",
@@ -389,70 +403,9 @@ const projects = [
     image: vowal,
     source_code_link:
       "https://github.com/ManSOorcode/21-Filter-vowal-from-Sentence",
+
+    live_link: "https://mansoorcode.github.io/21-Filter-vowal-from-Sentence/",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
