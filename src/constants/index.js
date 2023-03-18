@@ -235,7 +235,7 @@ const projects = [
     image: airbnb,
     source_code_link: "https://github.com/ManSOorcode/Airbnb-Clone",
 
-    live_link: "https://mansoor-cairbnb-clone.vercel.app/",
+    live_link: "https://mansoor-air-bnb-clone.vercel.app/",
   },
   {
     name: "Toothpaste Website",
